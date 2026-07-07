@@ -1,5 +1,5 @@
 """
-app.py — Streamlit UI for the DF40 CLIP deepfake detector
+app.py — Streamlit UI for the deepfake detector
 ----------------------------------------------------------
 Run:
     streamlit run app.py
@@ -40,7 +40,7 @@ IMG_SIZE = 224
 VIDEO_EXTS = {".mp4", ".avi", ".mov", ".mkv", ".webm", ".m4v"}
 IMG_EXTS = {".jpg", ".jpeg", ".png", ".bmp", ".webp"}
 
-st.set_page_config(page_title="DF40 CLIP Deepfake Detector", layout="centered")
+st.set_page_config(page_title="Deepfake Detector", layout="centered")
 
 
 def ensure_weights_downloaded(file_id: str, dest: Path) -> str:
